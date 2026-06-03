@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import '/css/reset.css';
 * {
-  outline: 1px solid rgba(0, 0, 0, 0.1882352941);
   box-sizing: border-box;
 }
 
