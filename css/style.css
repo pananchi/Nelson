@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import '/css/reset.css';
+* {
+  outline: 1px solid rgba(0, 0, 0, 0.1882352941);
+  box-sizing: border-box;
+}
+
+html {
+  font-size: clamp(3.2px, 0.7716049383vw, 10px);
+  scrollbar-gutter: stable;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Noto Sans";
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.main {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.scene {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.scene-max {
+  max-width: 129.6rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+/* header */
+/* ------------------------------------------------------------------- */
+.header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 6.4rem;
+  background: #FFF;
+  z-index: 100;
+}
+
+.header-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 129.6rem;
+  padding: 0 2rem;
+}
+.header-content h1 {
+  background: url(/images/device-pc.svg) center center no-repeat;
+  background-size: auto 100%;
+  width: 14rem;
+  height: 4rem;
+  font-size: 0;
+}
+.header-content .menu ul {
+  display: flex;
+  gap: 2.4rem;
+}
+.header-content .menu ul li a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #404040;
+  letter-spacing: 0.1rem;
+  text-indent: 0.1rem;
+  line-height: 1.5;
+  padding: 0.4rem 1.2rem;
+}
+
+/* nelson */
+/* ------------------------------------------------------------------- */
+.nelson .scene {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+  margin-top: 6.4rem;
+}
+.nelson .scene .nelson-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 40%;
+  color: #404040;
+}
+.nelson .scene .nelson-content h2 {
+  font-size: 8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+.nelson .scene .nelson-content p {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  text-indent: 0.1rem;
+}
+.nelson .scene .nelson-content ul {
+  display: flex;
+  margin-top: 6rem;
+  gap: 2.4rem;
+}
+.nelson .scene .nelson-content li a {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  text-indent: 0.1rem;
+  line-height: 1.5;
+  padding: 1.2rem 2.4rem;
+  border-radius: 5rem;
+  color: #404040;
+  border: 1px solid #404040;
+}
+.nelson .scene .nelson-content li a:hover {
+  background: #404040;
+  color: #FFF;
+}
+.nelson .scene .nelson-bg {
+  background: url(/images/index_person.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 74.6rem;
+  height: 80rem;
+}
+
+.nelson .illus {
+  position: absolute;
+  width: 192rem;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nelson .illus .illus_01 {
+  background: url(/images/index_decora_4.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 31.4rem;
+  height: 9.2rem;
+  top: 16.5%;
+  left: 11.7%;
+}
+.nelson .illus .illus_02 {
+  background: url(/images/index_decora_3.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 14rem;
+  height: 14rem;
+  top: 7%;
+  left: 4.5%;
+}
+.nelson .illus .illus_03 {
+  background: url(/images/index_decora_5.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 18rem;
+  height: 12rem;
+  top: 75%;
+  left: 27.5%;
+}
+.nelson .illus .illus_04 {
+  background: url(/images/index_decora_3.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 8rem;
+  height: 8rem;
+  top: 66%;
+  left: 37%;
+}
+.nelson .illus .illus_05 {
+  background: url(/images/index_decora_1.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 20rem;
+  height: 19.8rem;
+  top: 13%;
+  left: 40.7%;
+}
+.nelson .illus .illus_06 {
+  background: url(/images/index_decora_2.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 16rem;
+  height: 13.7rem;
+  top: 72%;
+  left: 79.5%;
+}
+.nelson .illus .illus_07 {
+  background: url(/images/index_decora_3.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 14rem;
+  height: 14rem;
+  top: 26%;
+  left: 86%;
+}
+
+/* nelson-p2 */
+/* ------------------------------------------------------------------- */
+.main.nelson-p2 {
+  background: rgb(36, 20, 11);
+}
+
+.nelson-p2 .scene {
+  padding: 8rem 0;
+  letter-spacing: 0.1rem;
+  text-indent: 0.1rem;
+}
+.nelson-p2 .scene h4 {
+  font-size: 1.6rem;
+  color: #FFF;
+  font-weight: 700;
+}
+.nelson-p2 .scene h3 {
+  font-size: 8rem;
+  color: #FFF;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+}
+.nelson-p2 .scene ul {
+  display: flex;
+  gap: 2.4rem;
+}
+.nelson-p2 .scene ul li {
+  position: relative;
+  background: rgb(253, 247, 241);
+  width: 100%;
+  line-height: 1.5;
+  color: rgb(64, 64, 64);
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 1.2rem;
+}
+.nelson-p2 .scene ul li svg {
+  position: absolute;
+  top: 13%;
+  right: 8%;
+  fill: #404040;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.nelson-p2 .scene ul li .nelson-p2-content span {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.nelson-p2 .scene ul li .nelson-p2-content h5 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+.nelson-p2 .scene ul li .nelson-p2-content p {
+  font-size: 1.6rem;
+}
+.nelson-p2 .scene ul li .arrow {
+  position: relative;
+  bottom: 0;
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  background: #404040;
+  border: 1px solid #404040;
+}
+.nelson-p2 .scene ul li .arrow svg {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #FFF;
+  line-height: 1.5;
+}
+.nelson-p2 .scene ul li .arrow:hover {
+  background: #000;
+}/*# sourceMappingURL=style.css.map */
