@@ -2,7 +2,7 @@
 @import '../css/reset.css';
 
 * {
-  // outline: 1px solid #00000030;
+  outline: 1px solid #00000030;
   box-sizing: border-box
 }
 
@@ -19,6 +19,7 @@ body {
   width: 100%;
   font-weight: 500;
   line-height: 1.5;
+  color: #404040;
 }
 
 .wrapper {
@@ -108,6 +109,23 @@ a {
   }
 }
 
+/* nelson-p2+p3+p4 */
+/* ------------------------------------------------------------------- */
+.main .scene h4 {
+  font-size: 1.6rem;
+  color: #404040;
+  font-weight: 700;
+  margin-top: 8rem;
+}
+
+.main .scene h3 {
+  font-size: 8rem;
+  color: #404040;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+}
+
 /* nelson */
 /* ------------------------------------------------------------------- */
 .nelson .scene {
@@ -167,19 +185,20 @@ a {
     background-size: auto 100%;
     width: 74.6rem;
     height: 80rem;
-
+    position: relative;
+    z-index: -2;
 
   }
 }
 
 .nelson .illus {
   position: absolute;
-
   width: 192rem;
   height: 100%;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  z-index: -1;
 
 
   .illus_01 {
@@ -258,17 +277,12 @@ a {
   text-indent: 0.1rem;
 
   h4 {
-    font-size: 1.6rem;
     color: #FFF;
-    font-weight: 700;
+    margin-top: 0;
   }
 
   h3 {
-    font-size: 8rem;
     color: #FFF;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 4rem;
   }
 
   ul {
@@ -339,8 +353,390 @@ a {
   }
 }
 
+/* nelson-p3 */
+/* ------------------------------------------------------------------- */
+.main.nelson-p3 {
+  text-align: center;
+}
 
+.main.nelson-p3 ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2.4rem;
+  margin: 4rem 0;
 
+  li {
+    display: flex;
 
+    width: 100%;
+    height: 39.7rem;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.4rem;
+      margin: 2.8rem;
+      padding: 4rem;
+      background: rgba(253, 247, 241, 1);
+      line-height: 1.5;
+
+      span {
+        font-size: 1.4rem;
+      }
+
+      h6 {
+        font-size: 1.6rem;
+      }
+
+      h5 {
+        font-size: 2.4rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+
+      a {
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+        text-indent: 0.1rem;
+        line-height: 1.5;
+        padding: 1.2rem 2.4rem;
+        border-radius: 5rem;
+        color: #FFF;
+        background: #404040;
+        border: 1px solid #404040;
+
+        &:hover {
+          background: #000;
+        }
+      }
+    }
+  }
+
+  li:nth-of-type(1) {
+    background: url(../images/project_1.png) center center no-repeat;
+    background-size: auto 100%;
+  }
+
+  li:nth-of-type(2) {
+    background: url(../images/project_2.png)center center no-repeat;
+    background-size: auto 100%;
+  }
+
+  li:nth-of-type(3) {
+    background: url(../images/project_3.png)center center no-repeat;
+    background-size: auto 100%;
+  }
+
+}
+
+.main.nelson-p3 .scene>a {
+  display: -webkit-inline-box;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  text-indent: 0.1rem;
+  line-height: 1.5;
+  padding: 1.2rem 2.4rem;
+  border-radius: 5rem;
+  color: #FFF;
+  background: #404040;
+  border: 1px solid #404040;
+  margin-bottom: 8rem;
+
+  &:hover {
+    background: #000;
+  }
+}
+
+/* nelson-p4 */
+/* ------------------------------------------------------------------- */
+.main.nelson-p4 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 4rem;
+
+  .title h3 {
+    margin-bottom: 0;
+  }
+
+  a {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    text-indent: 0.1rem;
+    line-height: 1.5;
+    padding: 1.2rem 2.4rem;
+    border-radius: 5rem;
+    color: #404040;
+    border: 1px solid #404040;
+
+    &:hover {
+      background: #404040;
+      color: #FFF;
+    }
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 8rem;
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    .nelson-bg {
+      width: 100%;
+      height: 24rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    h6 {
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        font-size: 1.4rem;
+      }
+
+      .tail,
+      .tail .views,
+      .tail .shares {
+        display: flex;
+        align-items: center;
+      }
+
+      .tail {
+        gap: 1.2rem;
+
+        .views,
+        .shares {
+          gap: 0.4rem;
+        }
+      }
+    }
+  }
+
+  .swiper-slide:nth-of-type(1) .nelson-bg {
+    background: url(../images/blog_2.png) center center no-repeat;
+    background-size: auto 100%;
+  }
+
+  .swiper-slide:nth-of-type(2) .nelson-bg {
+    background: url(../images/blog_3.png) center center no-repeat;
+    background-size: auto 100%;
+  }
+
+  .swiper-slide:nth-of-type(3) .nelson-bg {
+    background: url(../images/blog_5.png) center center no-repeat;
+    background-size: auto 100%;
+  }
+}
+
+/* nelson-p5 */
+/* ------------------------------------------------------------------- */
+.main.nelson-p5 {
+  background: linear-gradient(#00000060, #00000060),
+    url(../images/subscription_bg.png) center center no-repeat;
+  background-size: auto 100%;
+  width: 100%;
+  height: 44rem;
+
+  .scene {
+    display: flex;
+    gap: 2.4rem;
+  }
+
+  .nelson-bg {
+    background: url(../images/subscription.png) center center no-repeat;
+    background-size: auto 100%;
+    width: 52.6rem;
+    height: 44rem;
+  }
+
+  .content {
+    margin: 0 4rem;
+    width: 51%;
+
+    h4,
+    h3 {
+      color: #FFF;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 1.6rem;
+      color: #FFF;
+      letter-spacing: 0.05rem;
+      text-indent: 0.05rem;
+      margin: 2.4rem 0;
+    }
+
+    .form-group {
+      position: relative;
+
+      input {
+        width: 100%;
+        font-size: 1.6rem;
+        padding: 2rem 3.2rem;
+        border: 1px solid #FFF;
+        background-color: transparent;
+        border-radius: 4rem;
+        line-height: 1.38;
+        color: #FFF;
+
+        &::placeholder {
+          color: #FFF;
+          letter-spacing: 0.1rem;
+          text-indent: 0.1rem;
+        }
+      }
+
+      a {
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 1.5%;
+        transform: translateY(-50%);
+        font-size: 1.6rem;
+        background: #FFF;
+        color: #404040;
+        padding: 1.2rem 2.4rem;
+        border-radius: 4rem;
+
+        &:hover {
+          background: #c8c8c8;
+          color: #FFF;
+        }
+      }
+    }
+  }
+}
+
+/* nelson-p6 */
+/* ------------------------------------------------------------------- */
+.main.nelson-p6 {
+  background: rgba(36, 20, 11, 1);
+
+  .scene {
+    display: flex;
+    padding: 8rem 0;
+    gap: 2.4rem;
+  }
+}
+
+.main.nelson-p6 .content {
+  width: 40.6%;
+  display: flex;
+  flex-direction: column;
+
+  h4,
+  h3 {
+    margin: 0;
+    color: #FFF;
+  }
+
+  .text {
+    color: #FFF;
+    font-size: 1.6rem;
+    margin: 2.4rem 0;
+  }
+
+  ul {
+    display: flex;
+    gap: 1.2rem;
+    margin: 9.2rem 0 2.4rem 0;
+
+    li {
+      padding: 1.1rem;
+      border: 1px solid #FFF;
+      border-radius: 10rem;
+      line-height: 0;
+
+      svg {
+        fill: #FFF;
+      }
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.6rem;
+    color: #FFF;
+    letter-spacing: 0.05rem;
+    text-indent: 0.05rem;
+
+    svg {
+      fill: #FFF;
+    }
+  }
+}
+
+.main.nelson-p6 .material {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 57.6%;
+  padding: 0 4rem;
+
+  .top {
+    display: flex;
+    gap: 2.4rem;
+
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 2rem 3.2rem;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    border-radius: 4rem;
+    line-height: 1.38;
+    color: #FFF;
+
+    &::placeholder {
+      color: #FFF;
+      letter-spacing: 0.1rem;
+      text-indent: 0.1rem;
+    }
+  }
+
+  textarea {
+    height: 13.6rem;
+    resize: none;
+  }
+
+  a {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #404040;
+    background: #FFF;
+    line-height: 1.5;
+    padding: 1.2rem 0;
+    border-radius: 4rem;
+
+    &:hover {
+      background: #c8c8c8;
+      color: #FFF;
+    }
+  }
+}
 
 @media (min-width: 1297px) {}
