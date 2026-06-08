@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import '../css/reset.css';
+
 * {
   outline: 1px solid rgba(0, 0, 0, 0.1882352941);
   box-sizing: border-box;
@@ -83,6 +84,7 @@ a {
   width: 129.6rem;
   padding: 0 2rem;
 }
+
 .header-content h1 {
   background: url(../images/device-pc.svg) center center no-repeat;
   background-size: auto 100%;
@@ -90,10 +92,12 @@ a {
   height: 4rem;
   font-size: 0;
 }
+
 .header-content .menu ul {
   display: flex;
   gap: 2.4rem;
 }
+
 .header-content .menu ul li a {
   font-size: 1.6rem;
   font-weight: 500;
@@ -129,6 +133,7 @@ a {
   gap: 2.4rem;
   margin-top: 6.4rem;
 }
+
 .nelson .scene .nelson-content {
   display: flex;
   flex-direction: column;
@@ -137,6 +142,7 @@ a {
   width: 40%;
   color: #404040;
 }
+
 .nelson .scene .nelson-content h2 {
   font-size: 8rem;
   font-weight: 700;
@@ -145,16 +151,19 @@ a {
   line-height: 1.2;
   margin-bottom: 2.4rem;
 }
+
 .nelson .scene .nelson-content p {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   text-indent: 0.1rem;
 }
+
 .nelson .scene .nelson-content ul {
   display: flex;
   margin-top: 6rem;
   gap: 2.4rem;
 }
+
 .nelson .scene .nelson-content li a {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
@@ -165,10 +174,12 @@ a {
   color: #404040;
   border: 1px solid #404040;
 }
+
 .nelson .scene .nelson-content li a:hover {
   background: #404040;
   color: #FFF;
 }
+
 .nelson .scene .nelson-bg {
   background: url(../images/index_person.png) center center no-repeat;
   background-size: auto 100%;
@@ -187,6 +198,7 @@ a {
   transform: translateX(-50%);
   z-index: -1;
 }
+
 .nelson .illus .illus_01 {
   background: url(../images/index_decora_4.png) center center no-repeat;
   background-size: auto 100%;
@@ -195,6 +207,7 @@ a {
   top: 16.5%;
   left: 11.7%;
 }
+
 .nelson .illus .illus_02 {
   background: url(../images/index_decora_3.png) center center no-repeat;
   background-size: auto 100%;
@@ -203,6 +216,7 @@ a {
   top: 7%;
   left: 4.5%;
 }
+
 .nelson .illus .illus_03 {
   background: url(../images/index_decora_5.png) center center no-repeat;
   background-size: auto 100%;
@@ -211,6 +225,7 @@ a {
   top: 75%;
   left: 27.5%;
 }
+
 .nelson .illus .illus_04 {
   background: url(../images/index_decora_3.png) center center no-repeat;
   background-size: auto 100%;
@@ -219,6 +234,7 @@ a {
   top: 66%;
   left: 37%;
 }
+
 .nelson .illus .illus_05 {
   background: url(../images/index_decora_1.png) center center no-repeat;
   background-size: auto 100%;
@@ -227,6 +243,7 @@ a {
   top: 13%;
   left: 40.7%;
 }
+
 .nelson .illus .illus_06 {
   background: url(../images/index_decora_2.png) center center no-repeat;
   background-size: auto 100%;
@@ -235,6 +252,7 @@ a {
   top: 72%;
   left: 79.5%;
 }
+
 .nelson .illus .illus_07 {
   background: url(../images/index_decora_3.png) center center no-repeat;
   background-size: auto 100%;
@@ -255,17 +273,21 @@ a {
   letter-spacing: 0.1rem;
   text-indent: 0.1rem;
 }
+
 .nelson-p2 .scene h4 {
   color: #FFF;
   margin-top: 0;
 }
+
 .nelson-p2 .scene h3 {
   color: #FFF;
 }
+
 .nelson-p2 .scene ul {
   display: flex;
   gap: 2.4rem;
 }
+
 .nelson-p2 .scene ul li {
   position: relative;
   background: rgb(253, 247, 241);
@@ -278,6 +300,7 @@ a {
   padding: 2rem;
   gap: 1.2rem;
 }
+
 .nelson-p2 .scene ul li svg {
   position: absolute;
   top: 13%;
@@ -286,18 +309,22 @@ a {
   width: 2.4rem;
   height: 2.4rem;
 }
+
 .nelson-p2 .scene ul li .nelson-p2-content span {
   font-size: 1.6rem;
   font-weight: 700;
 }
+
 .nelson-p2 .scene ul li .nelson-p2-content h5 {
   font-size: 2.8rem;
   font-weight: 700;
   margin-bottom: 2.4rem;
 }
+
 .nelson-p2 .scene ul li .nelson-p2-content p {
   font-size: 1.6rem;
 }
+
 .nelson-p2 .scene ul li .arrow {
   position: relative;
   bottom: 0;
@@ -307,6 +334,7 @@ a {
   background: #404040;
   border: 1px solid #404040;
 }
+
 .nelson-p2 .scene ul li .arrow svg {
   position: absolute;
   width: 1.2rem;
@@ -317,6 +345,7 @@ a {
   fill: #FFF;
   line-height: 1.5;
 }
+
 .nelson-p2 .scene ul li .arrow:hover {
   background: #000;
 }
@@ -334,11 +363,13 @@ a {
   gap: 2.4rem;
   margin: 4rem 0;
 }
+
 .main.nelson-p3 ul li {
   display: flex;
   width: 100%;
   height: 39.7rem;
 }
+
 .main.nelson-p3 ul li .content {
   display: flex;
   flex-direction: column;
@@ -349,18 +380,23 @@ a {
   background: rgb(253, 247, 241);
   line-height: 1.5;
 }
+
 .main.nelson-p3 ul li .content span {
   font-size: 1.4rem;
 }
+
 .main.nelson-p3 ul li .content h6 {
   font-size: 1.6rem;
 }
+
 .main.nelson-p3 ul li .content h5 {
   font-size: 2.4rem;
 }
+
 .main.nelson-p3 ul li .content p {
   font-size: 1.6rem;
 }
+
 .main.nelson-p3 ul li .content a {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
@@ -372,23 +408,27 @@ a {
   background: #404040;
   border: 1px solid #404040;
 }
+
 .main.nelson-p3 ul li .content a:hover {
   background: #000;
 }
+
 .main.nelson-p3 ul li:nth-of-type(1) {
   background: url(../images/project_1.png) center center no-repeat;
   background-size: auto 100%;
 }
+
 .main.nelson-p3 ul li:nth-of-type(2) {
   background: url(../images/project_2.png) center center no-repeat;
   background-size: auto 100%;
 }
+
 .main.nelson-p3 ul li:nth-of-type(3) {
   background: url(../images/project_3.png) center center no-repeat;
   background-size: auto 100%;
 }
 
-.main.nelson-p3 .scene > a {
+.main.nelson-p3 .scene>a {
   display: -webkit-inline-box;
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
@@ -401,7 +441,8 @@ a {
   border: 1px solid #404040;
   margin-bottom: 8rem;
 }
-.main.nelson-p3 .scene > a:hover {
+
+.main.nelson-p3 .scene>a:hover {
   background: #000;
 }
 
@@ -413,9 +454,11 @@ a {
   align-items: flex-end;
   margin-bottom: 4rem;
 }
+
 .main.nelson-p4 .top .title h3 {
   margin-bottom: 0;
 }
+
 .main.nelson-p4 .top a {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
@@ -426,6 +469,7 @@ a {
   color: #404040;
   border: 1px solid #404040;
 }
+
 .main.nelson-p4 .top a:hover {
   background: #404040;
   color: #FFF;
@@ -436,50 +480,62 @@ a {
   height: 100%;
   margin-bottom: 8rem;
 }
+
 .swiper .swiper-slide {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
+
 .swiper .swiper-slide .nelson-bg {
   width: 100%;
   height: 24rem;
 }
+
 .swiper .swiper-slide p {
   font-size: 1.6rem;
 }
+
 .swiper .swiper-slide h6 {
   font-size: 2.4rem;
   font-weight: 700;
 }
+
 .swiper .swiper-slide .bottom {
   display: flex;
   justify-content: space-between;
 }
+
 .swiper .swiper-slide .bottom span {
   font-size: 1.4rem;
 }
+
 .swiper .swiper-slide .bottom .tail,
 .swiper .swiper-slide .bottom .tail .views,
 .swiper .swiper-slide .bottom .tail .shares {
   display: flex;
   align-items: center;
 }
+
 .swiper .swiper-slide .bottom .tail {
   gap: 1.2rem;
 }
+
 .swiper .swiper-slide .bottom .tail .views,
 .swiper .swiper-slide .bottom .tail .shares {
   gap: 0.4rem;
 }
+
 .swiper .swiper-slide:nth-of-type(1) .nelson-bg {
   background: url(../images/blog_2.png) center center no-repeat;
   background-size: auto 100%;
 }
+
 .swiper .swiper-slide:nth-of-type(2) .nelson-bg {
   background: url(../images/blog_3.png) center center no-repeat;
   background-size: auto 100%;
 }
+
 .swiper .swiper-slide:nth-of-type(3) .nelson-bg {
   background: url(../images/blog_5.png) center center no-repeat;
   background-size: auto 100%;
@@ -493,25 +549,30 @@ a {
   width: 100%;
   height: 44rem;
 }
+
 .main.nelson-p5 .scene {
   display: flex;
   gap: 2.4rem;
 }
+
 .main.nelson-p5 .nelson-bg {
   background: url(../images/subscription.png) center center no-repeat;
   background-size: auto 100%;
   width: 52.6rem;
   height: 44rem;
 }
+
 .main.nelson-p5 .content {
   margin: 0 4rem;
   width: 51%;
 }
+
 .main.nelson-p5 .content h4,
 .main.nelson-p5 .content h3 {
   color: #FFF;
   margin-bottom: 0;
 }
+
 .main.nelson-p5 .content p {
   font-size: 1.6rem;
   color: #FFF;
@@ -519,9 +580,11 @@ a {
   text-indent: 0.05rem;
   margin: 2.4rem 0;
 }
+
 .main.nelson-p5 .content .form-group {
   position: relative;
 }
+
 .main.nelson-p5 .content .form-group input {
   width: 100%;
   font-size: 1.6rem;
@@ -532,16 +595,19 @@ a {
   line-height: 1.38;
   color: #FFF;
 }
+
 .main.nelson-p5 .content .form-group input::-moz-placeholder {
   color: #FFF;
   letter-spacing: 0.1rem;
   text-indent: 0.1rem;
 }
+
 .main.nelson-p5 .content .form-group input::placeholder {
   color: #FFF;
   letter-spacing: 0.1rem;
   text-indent: 0.1rem;
 }
+
 .main.nelson-p5 .content .form-group a {
   position: absolute;
   display: block;
@@ -554,6 +620,7 @@ a {
   padding: 1.2rem 2.4rem;
   border-radius: 4rem;
 }
+
 .main.nelson-p5 .content .form-group a:hover {
   background: #c8c8c8;
   color: #FFF;
@@ -564,6 +631,7 @@ a {
 .main.nelson-p6 {
   background: rgb(36, 20, 11);
 }
+
 .main.nelson-p6 .scene {
   display: flex;
   padding: 8rem 0;
@@ -575,30 +643,36 @@ a {
   display: flex;
   flex-direction: column;
 }
+
 .main.nelson-p6 .content h4,
 .main.nelson-p6 .content h3 {
   margin: 0;
   color: #FFF;
 }
+
 .main.nelson-p6 .content .text {
   color: #FFF;
   font-size: 1.6rem;
   margin: 2.4rem 0;
 }
+
 .main.nelson-p6 .content ul {
   display: flex;
   gap: 1.2rem;
   margin: 9.2rem 0 2.4rem 0;
 }
+
 .main.nelson-p6 .content ul li {
   padding: 1.1rem;
   border: 1px solid #FFF;
   border-radius: 10rem;
   line-height: 0;
 }
+
 .main.nelson-p6 .content ul li svg {
   fill: #FFF;
 }
+
 .main.nelson-p6 .content a {
   display: flex;
   align-items: center;
@@ -608,6 +682,7 @@ a {
   letter-spacing: 0.05rem;
   text-indent: 0.05rem;
 }
+
 .main.nelson-p6 .content a svg {
   fill: #FFF;
 }
@@ -619,10 +694,12 @@ a {
   width: 57.6%;
   padding: 0 4rem;
 }
+
 .main.nelson-p6 .material .top {
   display: flex;
   gap: 2.4rem;
 }
+
 .main.nelson-p6 .material input,
 .main.nelson-p6 .material textarea {
   width: 100%;
@@ -634,21 +711,26 @@ a {
   line-height: 1.38;
   color: #FFF;
 }
-.main.nelson-p6 .material input::-moz-placeholder, .main.nelson-p6 .material textarea::-moz-placeholder {
+
+.main.nelson-p6 .material input::-moz-placeholder,
+.main.nelson-p6 .material textarea::-moz-placeholder {
   color: #FFF;
   letter-spacing: 0.1rem;
   text-indent: 0.1rem;
 }
+
 .main.nelson-p6 .material input::placeholder,
 .main.nelson-p6 .material textarea::placeholder {
   color: #FFF;
   letter-spacing: 0.1rem;
   text-indent: 0.1rem;
 }
+
 .main.nelson-p6 .material textarea {
   height: 13.6rem;
   resize: none;
 }
+
 .main.nelson-p6 .material a {
   text-align: center;
   font-size: 1.6rem;
@@ -658,7 +740,10 @@ a {
   padding: 1.2rem 0;
   border-radius: 4rem;
 }
+
 .main.nelson-p6 .material a:hover {
   background: #c8c8c8;
   color: #FFF;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
