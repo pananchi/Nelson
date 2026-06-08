@@ -589,13 +589,13 @@ a {
   gap: 1.2rem;
   margin: 9.2rem 0 2.4rem 0;
 }
-.main.nelson-p6 .content ul li {
+.main.nelson-p6 .content ul li a {
   padding: 1.1rem;
   border: 1px solid #FFF;
   border-radius: 10rem;
   line-height: 0;
 }
-.main.nelson-p6 .content ul li svg {
+.main.nelson-p6 .content ul li a svg {
   fill: #FFF;
 }
 .main.nelson-p6 .content a {
